@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:just_audio_background/just_audio_background.dart';
@@ -157,27 +156,6 @@ class _AllSongsState extends State<AllSongs> {
                     itemCount: item.data!.length,
                   ),
                 ),
-                // Align(
-                //   alignment: Alignment.bottomRight,
-                //   child: GestureDetector(
-                //     onTap: () {
-                //       Navigator.push(
-                //           context,
-                //           MaterialPageRoute(
-                //               builder: (context) => NowPlaying(
-                //                     songModelList: allsongs,
-                //                     audioPlayer: _audioPlayer,
-                //                   )));
-                //     },
-                //     child: Container(
-                //       margin: EdgeInsets.fromLTRB(0, 0, 15, 15),
-                //       child: CircleAvatar(
-                //         radius: 30,
-                //         child: Icon(Icons.play_arrow),
-                //       ),
-                //     ),
-                //   ),
-                // )
               ],
             );
           }),
